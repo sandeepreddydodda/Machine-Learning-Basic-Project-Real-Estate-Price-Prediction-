@@ -1,0 +1,15 @@
+	area	price
+0	2600	550000
+1	3000	565000
+2	3200	610000
+3	3600	680000
+4	4000	725000
+
+
+LinearRegression()
+
+array([628715.75342466]) ( (y = m*x+c) Predicted Price for the case y = 3300)
+
+array([135.78767123]) (coeficient)
+
+180616.43835616432. (Intercept)
