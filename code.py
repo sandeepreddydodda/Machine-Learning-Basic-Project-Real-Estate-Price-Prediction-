@@ -12,6 +12,9 @@ plt.scatter(df.area, df.price, color='red', marker='+')
 
 reg = linear_model.LinearRegression()
 reg.fit(df[['area']], df.price)
+plt.xlabel('area')
+plt.ylabel('price')
+plt.plot(df.area, reg.predict(df[['area']]), color='red')
 
 reg.predict([[3300]])
 reg.coef_
